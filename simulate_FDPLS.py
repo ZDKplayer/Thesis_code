@@ -10,8 +10,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # 模拟满足给定功率谱的光变曲线
-
-
 def simu_lor(v0, fwhm, mean_rate, rms, duration):
     """
     v0:中心频率
